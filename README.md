@@ -1,4 +1,5 @@
 # Tarea-5-DALGO
+IMPORTANTE: Lea este archivo en Visual Studio Code para evitar problemas de formato
 
 Instrucciones para ejecutar el punto2:
 
