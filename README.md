@@ -19,6 +19,7 @@ ___|_____________
 
 escriba:
 [[1, -1, -1], [-1, 1, -1], [-1, -1, 1]]
+
 (cada una de las filas están separadas por comas y delimitadas por paréntesis cuadrados. Cada uno de los valores de las columndas de cada fila tambien va separado por comas. Toda la matriz también va delimitada por paréntesis cuadrados. No es necesario que escriba el número de las filas ni de las columnas. Es necesario que la matriz de entrada esté escrita tal como se ve en el ejemplo)
 
 6.Guarde este archivo que acabó de crear con la matriz de entrada en la misma carpeta que creó hace unos minutos con el archivo "punto2.py"
