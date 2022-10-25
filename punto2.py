@@ -33,24 +33,29 @@ def BFS(matrix, nodes, start):
     return sorted(answer)
 
 
-"""   
+
 
 if __name__ == '__main__':
     matrix=[]
-    listaFila =list(sys.stdin.readline().strip(" ").split("\t"))
+    listaFila =list((sys.stdin.readline()).strip(" ").split("\t"))
     matrix.append(listaFila)
     numeroFilas = len(listaFila)
     for i in range(numeroFilas-1):
         fila=list(sys.stdin.readline().strip(" ").split("\t"))
         matrix.append(fila)
-    answer = order(matrix)
+    int_matrix = [[int(i) for i in inner_list] for inner_list in matrix]
+    answer = order(int_matrix)
     print(answer)
 
  
-"""
 
+
+
+
+"""
 if __name__ == '__main__':
     string = input("ingrese la matriz")
     matrix = eval(string)
     answer = order(matrix)
     print(answer)
+"""
