@@ -1,14 +1,15 @@
+package Punto_3;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Util 
+public class Util
 {
     public static int [][] readMatrix() throws FileNotFoundException 
     {
         final Scanner scanner = new Scanner(new File("input.txt"));
-
         final int n1 = scanner.nextInt();
         final int n2 = scanner.nextInt();
 
