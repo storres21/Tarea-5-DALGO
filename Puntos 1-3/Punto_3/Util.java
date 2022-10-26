@@ -25,17 +25,18 @@ public class Util
         return matrix;
     }
 
-    public static void writeMatrix(int [][] matrix) throws FileNotFoundException
+    public static void writeText(String texto) throws FileNotFoundException
     {
         final PrintWriter writer = new PrintWriter("output.txt");
-        for (int i = 0; i < matrix.length; i++)
+        if(DFS.tieneCiclos == true)
         {
-            for (int j = 0; j < matrix[i].length; j++)
-            {
-                writer.print(matrix[i][j] + " ");
-            }
-            writer.println();
+            writer.println("La matriz tiene ciclos");
         }
+        else
+        {
+            writer.println("La matriz NO tiene ciclos");
+        }
+
         writer.close();
     }
 }

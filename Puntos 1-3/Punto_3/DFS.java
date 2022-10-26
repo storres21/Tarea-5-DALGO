@@ -64,11 +64,11 @@ public class DFS
         }
         if (tieneCiclos == true)
         {
-            System.out.println("La matriz tiene ciclos");
+            Util.writeText("La matriz tiene ciclos");
         }
         else
         {
-            System.out.println("La matriz NO tiene ciclos");
+            Util.writeText("La matriz NO tiene ciclos");
         }
     }
 }
