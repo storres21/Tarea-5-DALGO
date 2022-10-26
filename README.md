@@ -7,7 +7,7 @@ Instrucciones para ejecutar el punto 1:
 
 2. Descomprima la carpeta completa
 
-3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Punto_1
+3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Puntos 1-3\Punto_1
 
 4. Este archivo "input.txt" contiene la matriz de entrada y este tiene el siguiente formato:
 
@@ -86,7 +86,7 @@ Instrucciones para ejecutar el punto 3:
 
 2. Descomprima la carpeta completa
 
-3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Punto_1
+3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Puntos 1-3\Punto_3
 
 4. Este archivo "input.txt" contiene la matriz de entrada y este tiene el siguiente formato:
 
