@@ -33,7 +33,7 @@ Instrucciones para ejecutar el punto 1:
 
 10. Esto le generara un archivo llamado "output.txt" en la carpeta ...\Tarea-5-DALGO\Punto_1. Este contiene la matriz que representa el costo de camino minimo de cada vertice a todos los otros vertices del grafo
 
-Instrucciones para ejecutar el punto2:
+Instrucciones para ejecutar el punto 2:
 
 Para ejecutar este algoritmo el usuario debe seguir las siguientes instrucciones:
 
@@ -78,3 +78,32 @@ escriba:
 
 12. Siguiente a lo que escribió en la terminal en el literal 11 escriba: "< matrix.in" y presione enter.
 Siguiendo estos pasos en la terminal debería aparecer la respuesta.
+
+
+Instrucciones para ejecutar el punto 3:
+
+1. Descargue el archivo llamado "Tarea5 Dalgo.zip"
+
+2. Descomprima la carpeta completa
+
+3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Punto_1
+
+4. Este archivo "input.txt" contiene la matriz de entrada y este tiene el siguiente formato:
+
+   Los números están separados por un espacio sin cambio de linea
+
+   Los dos primeros numéros especifican el tamano de la matriz 
+
+   Por ejemplo, el archivo "input.txt" con la entrada 3 3 0 1 8 1 0 2 8 2 0 genera la siguiente matriz de tamano 3 x 3
+
+      0 1 8
+      1 0 2
+      8 2 0
+
+5. Abra una terminal, por ejemplo, desde la lupa busque cmd para windows 
+
+6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_1 (la ubicacion de la carpeta)
+
+7. Ejecute el siguiente comando: javac DFS.java 
+
+8. Esto le generara un archivo llamado "output.txt" en la carpeta ...\Tarea-5-DALGO\Punto_1. Este contiene la matriz que representa el costo de camino minimo de cada vertice a todos los otros vertices del grafo
