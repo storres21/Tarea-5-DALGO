@@ -3,17 +3,13 @@ package Punto_3;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.*;
-
-
 
 public class DFS
 {
     static boolean tieneCiclos = false;
 
-    public static void DFS(Graph graph, int v, boolean[] discovered)
+    public static void DFS_algorithm(Graph graph, int v, boolean[] discovered)
     {
         // marca el nodo actual como descubierto
         discovered[v] = true;
@@ -24,7 +20,7 @@ public class DFS
             }
 
             if (!discovered[u]) {
-                DFS(graph, u, discovered);
+                DFS_algorithm(graph, u, discovered);
             }
         }
     }
@@ -59,7 +55,7 @@ public class DFS
 
         for (int i = 0; i < n; i++) {
             if (!discovered[i]) {
-                DFS(graph1, i, discovered);
+                DFS.DFS_algorithm(graph1, i, discovered);
             }
         }
         if (tieneCiclos == true)
