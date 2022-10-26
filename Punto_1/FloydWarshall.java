@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+
 /*
  * This algorithm finds the shortest path between all pairs of vertices in a graph
  */
@@ -46,27 +48,11 @@ public class FloydWarshall
     /*
      * Main method
      */
-    public static void main(String[] args)
+    public static void main(String[] args) throws FileNotFoundException
     {
-        int [][] graph = new int [][]{ 
-            {0, 1, 8}, 
-            {1, 0, 2}, 
-            {8, 2, 0}
-        };
-
+        int [][] graph = Util.readMatrix();
         FloydWarshall floydWarshall = new FloydWarshall();
         int [][] matrix = floydWarshall.FloydWarshallAlgorithm(graph);
-
-        System.out.println();
-        
-        for (int i = 0; i < matrix.length; i++)
-        {
-            for (int j = 0; j < matrix.length; j++)
-            {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+        Util.writeMatrix(matrix);
     }
-
 }

@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -94,14 +95,9 @@ public class Dijkstra
     /*
      * Main method
      */
-    public static void main(String[] args)
+    public static void main(String[] args) throws FileNotFoundException
     {
-        int [][] graph = new int [][]{ 
-            {0, 1, 8}, 
-            {1, 0, 2}, 
-            {8, 2, 0}
-        };
-
+        int [][] graph = Util.readMatrix();
         Dijkstra dijkstra = new Dijkstra();
         int [][] distanceFromAllVertices = new int [graph.length][graph.length];
 
@@ -111,15 +107,6 @@ public class Dijkstra
             distanceFromAllVertices[i] = distanceFromVertex;
         }
 
-        System.out.println();
-
-        for (int i = 0; i < distanceFromAllVertices.length; i++)
-        {
-            for (int j = 0; j < distanceFromAllVertices[i].length; j++)
-            {
-                System.out.print(distanceFromAllVertices[i][j] + " ");
-            }
-            System.out.println();
-        }
+        Util.writeMatrix(distanceFromAllVertices);
     }
 }
