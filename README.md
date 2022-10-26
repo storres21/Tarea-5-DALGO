@@ -1,6 +1,17 @@
 # Tarea-5-DALGO
 IMPORTANTE: Lea este archivo en Visual Studio Code para evitar problemas de formato
 
+Instrucciones para ejecutar el punto 1:
+
+1.Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
+
+2.Descomprima el archivo.
+
+3.Cree una nueva carpeta (afuera de la que acabó de descomprimir), copie y pegue la carpeta titulada Punto_1 desde la carpeta Tarea5 Dalgo hasta la nueva carpeta que creó.
+
+
+
+
 Instrucciones para ejecutar el punto2:
 
 Para ejecutar este algoritmo el usuario debe seguir las siguientes instrucciones:
