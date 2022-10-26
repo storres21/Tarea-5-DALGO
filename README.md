@@ -3,14 +3,35 @@ IMPORTANTE: Lea este archivo en Visual Studio Code para evitar problemas de form
 
 Instrucciones para ejecutar el punto 1:
 
-1.Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
+1. Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
 
-2.Descomprima el archivo.
+2. Descomprima el archivo.
 
-3.Cree una nueva carpeta (afuera de la que acabó de descomprimir), copie y pegue la carpeta titulada Punto_1 desde la carpeta Tarea5 Dalgo hasta la nueva carpeta que creó.
+3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Punto_1
 
+4. Este archivo "input.txt" contiene la matriz de entrada y este tiene el siguiente formato:
 
+   Los números están separados por un espacio sin cambio de linea
 
+   Los dos primeros numéros especifican el tamano de la matriz 
+
+   Por ejemplo, el archivo "input.txt" con la entrada 3 3 0 1 8 1 0 2 8 2 0 genera la siguiente matriz de tamano 3 x 3
+
+      0 1 8
+      1 0 2
+      8 2 0
+
+5. Abra una terminal, por ejemplo, desde la lupa busque cmd para windows 
+
+6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_1
+
+7. Recuerde que puede probar con tres algoritmos escritos exactamente asi: Dijkstra, BellmanFord o FloydWarshall
+
+8. Ejecute el siguiente comando: javac Dijkstra.java (si quiere probar este algoritmo)
+
+9. Ejecute el siguiente comando: java Dijkstra
+
+10. Esto le generara un archivo llamado "output.txt" en la carpeta ...\Tarea-5-DALGO\Punto_1. Este contiene la matriz que representa el costo de camino minimo de cada vertice a todos los otros vertices
 
 Instrucciones para ejecutar el punto2:
 

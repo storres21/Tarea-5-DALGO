@@ -7,7 +7,7 @@ public class Util
 {
     public static int [][] readMatrix() throws FileNotFoundException 
     {
-        final Scanner scanner = new Scanner(new File("Punto_1/input.txt"));
+        final Scanner scanner = new Scanner(new File("input.txt"));
 
         final int n1 = scanner.nextInt();
         final int n2 = scanner.nextInt();
@@ -26,7 +26,7 @@ public class Util
 
     public static void writeMatrix(int [][] matrix) throws FileNotFoundException
     {
-        final PrintWriter writer = new PrintWriter("Punto_1/output.txt");
+        final PrintWriter writer = new PrintWriter("output.txt");
         for (int i = 0; i < matrix.length; i++)
         {
             for (int j = 0; j < matrix[i].length; j++)
