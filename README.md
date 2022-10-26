@@ -3,9 +3,9 @@ IMPORTANTE: Lea este archivo en Visual Studio Code para evitar problemas de form
 
 Instrucciones para ejecutar el punto 1:
 
-1. Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
+1. Descargue el archivo llamado "Tarea5 Dalgo.zip"
 
-2. Descomprima el archivo.
+2. Descomprima la carpeta completa
 
 3. Cree un archivo llamado "input.txt" y guarde este en el directorio ...\Tarea-5-DALGO\Punto_1
 
@@ -23,29 +23,29 @@ Instrucciones para ejecutar el punto 1:
 
 5. Abra una terminal, por ejemplo, desde la lupa busque cmd para windows 
 
-6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_1
+6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_1 (la ubicacion de la carpeta)
 
-7. Recuerde que puede probar con tres algoritmos escritos exactamente asi: Dijkstra, BellmanFord o FloydWarshall
+7. Recuerde que puede probar con tres algoritmos llamados exactamente asi: Dijkstra, BellmanFord o FloydWarshall
 
 8. Ejecute el siguiente comando: javac Dijkstra.java (si quiere probar este algoritmo)
 
 9. Ejecute el siguiente comando: java Dijkstra
 
-10. Esto le generara un archivo llamado "output.txt" en la carpeta ...\Tarea-5-DALGO\Punto_1. Este contiene la matriz que representa el costo de camino minimo de cada vertice a todos los otros vertices
+10. Esto le generara un archivo llamado "output.txt" en la carpeta ...\Tarea-5-DALGO\Punto_1. Este contiene la matriz que representa el costo de camino minimo de cada vertice a todos los otros vertices del grafo
 
 Instrucciones para ejecutar el punto2:
 
 Para ejecutar este algoritmo el usuario debe seguir las siguientes instrucciones:
 
-1.Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
+1. Descargue el archivo llamado "Tarea5 Dalgo.zip" y desplacelo hasta la carpeta de su preferencia.
 
-2.Descomprima el archivo.
+2. Descomprima el archivo.
 
-3.Cree una nueva carpeta (afuera de la que acabó de descomprimir), copie y pegue el archivo titulado punto2.py desde la carpeta Tarea5 Dalgo hasta la nueva carpeta que creó.
+3. Cree una nueva carpeta (afuera de la que acabó de descomprimir), copie y pegue el archivo titulado punto2.py desde la carpeta Tarea5 Dalgo hasta la nueva carpeta que creó.
 
-4.Entre a Visual Studio Code y abra la nueva carpeta con el archivo "punto2.py".
+4. Entre a Visual Studio Code y abra la nueva carpeta con el archivo "punto2.py".
 
-5.En la lupa de busqueda de su computador escriba "block de notas", abra la aplicación con este nombre y en este nuevo archivo escriba su matriz de entrada siguiendo el siguiente formato:
+5. En la lupa de busqueda de su computador escriba "block de notas", abra la aplicación con este nombre y en este nuevo archivo escriba su matriz de entrada siguiendo el siguiente formato:
 (Recuerde que la matriz de entrada solo debería estra compuesta de los números "1", "-1" y "0")
 
 si su matriz es:
@@ -64,17 +64,17 @@ escriba:
 
 (Cada uno de los valores de las columnas de cada fila van separados por solo un espacio y cada cada una de las filas no está separada por un solo enter. No es necesario que escriba el número de cada fila ni de cada columna. Es necesario que la matriz de entrada esté escrita tal como se ve en el ejemplo)
 
-6.Guarde este archivo que acabó de crear con la matriz de entrada en la misma carpeta que creó hace unos minutos con el archivo "punto2.py"
+6. Guarde este archivo que acabó de crear con la matriz de entrada en la misma carpeta que creó hace unos minutos con el archivo "punto2.py"
 
-7.Ingrese a esta carpeta y cambie el nombre del archivo de entrada a: "matrix.in"
+7. Ingrese a esta carpeta y cambie el nombre del archivo de entrada a: "matrix.in"
 
-8.Abra una terminal en su computador, para esto puede escribir en la lupa de busqueda "Simbolo del sistema" y darle click a la aplicación con este nombre.
+8. Abra una terminal en su computador, para esto puede escribir en la lupa de busqueda "Simbolo del sistema" y darle click a la aplicación con este nombre.
 
-9.En el explorador de archivos de su compurador busque la carpeta que creó con el archivo "punto2.py" y "matriz.in" y copie la ruta a esta carpeta dando click y copiando la ruta que aparece en la barra superior de la ventana en donde se ve las carpetas que ha abierto para poder llegar hasta la carpeta en donde está trabajando.
+9. En el explorador de archivos de su compurador busque la carpeta que creó con el archivo "punto2.py" y "matriz.in" y copie la ruta a esta carpeta dando click y copiando la ruta que aparece en la barra superior de la ventana en donde se ve las carpetas que ha abierto para poder llegar hasta la carpeta en donde está trabajando.
 
-10.En la terminal copie: cd +(la ruta que acabó de copiar) y oprima "enter". Luego de esto verá que su terminal está ubicada en la carpeta que seleccionó.
+10. En la terminal copie: cd +(la ruta que acabó de copiar) y oprima "enter". Luego de esto verá que su terminal está ubicada en la carpeta que seleccionó.
 
-11.Luego de esto escriba en la terminal python o python3 (depende de su computador, puede probar con ambas opciones) y luego punto2.py  En este punto mi terminal tendría la siguiente instrucción: C:\Users\sofit\OneDrive - Universidad de los Andes\Documentos\Uni quinto semestre\DALGO\Tareas\Tarea 5\Tarea-5-DALGO>python punto2.py
+11. Luego de esto escriba en la terminal python o python3 (depende de su computador, puede probar con ambas opciones) y luego punto2.py  En este punto mi terminal tendría la siguiente instrucción: C:\Users\sofit\OneDrive - Universidad de los Andes\Documentos\Uni quinto semestre\DALGO\Tareas\Tarea 5\Tarea-5-DALGO>python punto2.py
 
-12.Siguiente a lo que escribió en la terminal en el literal 11 escriba: "< matrix.in" y presione enter.
+12. Siguiente a lo que escribió en la terminal en el literal 11 escriba: "< matrix.in" y presione enter.
 Siguiendo estos pasos en la terminal debería aparecer la respuesta.
