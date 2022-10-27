@@ -1,4 +1,17 @@
 # Tarea-5-DALGO
+
+
+Nombre: Sofía Torres Ramírez.
+ Código: 202014872
+
+ Nombre: Juan Camilo Neira Campos
+ Código: 201922746
+
+ Nombre: Juan David Briceño Morales
+ Código: 201812887
+ 
+
+
 IMPORTANTE: Lea este archivo en Visual Studio Code para evitar problemas de formato
 
 Instrucciones para ejecutar el punto 1:
@@ -102,7 +115,7 @@ Instrucciones para ejecutar el punto 3:
 
 5. Abra una terminal, por ejemplo, desde la lupa busque cmd para windows 
 
-6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_1 (la ubicacion de la carpeta)
+6. Ejecute el siguiente comando: cd ...\Tarea-5-DALGO\Punto_3 (la ubicacion de la carpeta)
 
 7. Ejecute el siguiente comando: javac DFS.java 
 
